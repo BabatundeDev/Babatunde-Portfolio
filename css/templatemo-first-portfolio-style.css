@@ -994,12 +994,6 @@ strong {
     padding-bottom: 380px;
   }
 
-  .hero-image-wrap {
-    top: -50px;
-    width: 400px;
-    height: 400px;
-  }
-
   .hero-image {
     min-width: 650px;
   }
@@ -1181,12 +1175,8 @@ strong {
     line-height: 35.5px;
   }
 
-  .hero-image-wrap {
-    width: 300px;
-    height: 300px;
-  }
-
   .hero-image {
     min-width: inherit;
+    top: -100px;
   }
 }
