@@ -7,7 +7,7 @@ import Flickster from "../assets/projects/flickster.png";
 import Football from "../assets/projects/football-live.png";
 import Smartweblab from "../assets/projects/smartweblab.png";
 import Smartdwell from "../assets/projects/smartdwell.png";
-import RideX from "../assets/projects/ridex.png";
+import RidexImage from "../assets/projects/ridex.png";
 import Pod from "../assets/projects/pod-tshirt.png";
 import Autovista from "../assets/projects/autovista.png";
 
@@ -100,7 +100,7 @@ export function Projects() {
       title: "RideX — Ride-Sharing Web Platform",
       description:
         "RideX is a modern ride-sharing web app built to simulate on-demand transportation functionality. Users can request rides, input pickup and drop-off locations, and follow their trip through a clean, map-driven interface. The app is designed to be responsive, intuitive, and focused on performance, giving users a seamless experience across devices.",
-      image: RideX,
+      image: RidexImage,
       tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
       metrics: ["Ride Requests Simulated", "200ms Response Time", "90% Mobile Compatibility"],
       features: [
