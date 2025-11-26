@@ -8,7 +8,7 @@ import Football from "../assets/projects/football-live.png";
 import Smartweblab from "../assets/projects/smartweblab.png";
 import Smartdwell from "../assets/projects/smartdwell.png";
 import Ride from "../assets/projects/ride.png"
-import Pod from "../assets/projects/pod.png";
+import Pod from "../assets/projects/pod-tshirt.png";
 import Autovista from "../assets/projects/autovista.png";
 
 export function Projects() {
