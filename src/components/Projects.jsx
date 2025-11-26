@@ -7,7 +7,7 @@ import Flickster from "../assets/projects/flickster.png";
 import Football from "../assets/projects/football-live.png";
 import Smartweblab from "../assets/projects/smartweblab.png";
 import Smartdwell from "../assets/projects/smartdwell.png";
-import Ridex from "../assets/projects/Ridex.png";
+import Ridex from "../assets/projects/ridex.png";
 import Pod from "../assets/projects/pod.png";
 import Autovista from "../assets/projects/autovista.png";
 
