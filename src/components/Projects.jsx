@@ -3,13 +3,13 @@ import { ExternalLink, Github, ArrowRight, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./image/ImageWithFallback";
 
-import Flickster from "../assets/projects/flickster.png";
-import Football from "../assets/projects/football-live.png";
-import Smartweblab from "../assets/projects/smartweblab.png";
-import Smartdwell from "../assets/projects/smartdwell.png";
-import RidexImage from "../assets/projects/ridex.png";
-import Pod from "../assets/projects/pod-tshirt.png";
-import Autovista from "../assets/projects/autovista.png";
+import Flickster from "../assets/projects/Flickster.png";
+import Football from "../assets/projects/Football-live.png";
+import Smartweblab from "../assets/projects/Smartweblab.png";
+import Smartdwell from "../assets/projects/Smartdwell.png";
+import RideX from "../assets/projects/Ridex.png";
+import Pod from "../assets/projects/Pod.png";
+import Autovista from "../assets/projects/Autovista.png";
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -100,7 +100,7 @@ export function Projects() {
       title: "RideX — Ride-Sharing Web Platform",
       description:
         "RideX is a modern ride-sharing web app built to simulate on-demand transportation functionality. Users can request rides, input pickup and drop-off locations, and follow their trip through a clean, map-driven interface. The app is designed to be responsive, intuitive, and focused on performance, giving users a seamless experience across devices.",
-      image: RidexImage,
+      image: RideX,
       tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
       metrics: ["Ride Requests Simulated", "200ms Response Time", "90% Mobile Compatibility"],
       features: [
