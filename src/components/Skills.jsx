@@ -71,8 +71,8 @@ export function Skills() {
               key={key}
               onClick={() => setActiveCategory(key)}
               className={`px-6 py-3 border transition-all ${activeCategory === key
-                  ? "border-white bg-white text-black"
-                  : "border-white/20 text-white/60 hover:border-white/40 hover:text-white"
+                ? "border-white bg-white text-black"
+                : "border-white/20 text-white/60 hover:border-white/40 hover:text-white"
                 }`}
             >
               {category.title}

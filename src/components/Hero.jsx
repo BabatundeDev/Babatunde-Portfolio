@@ -11,11 +11,11 @@ export function Hero() {
   };
 
   const scrollToProjects = () => {
-  const element = document.querySelector("#projects");
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
+    const element = document.querySelector("#projects");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="min-h-screen flex items-center justify-center relative px-4 pt-20">

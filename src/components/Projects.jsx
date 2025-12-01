@@ -40,7 +40,7 @@ export function Projects() {
       title: "Football Live Match App",
       description:
         "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
-      image: Football ,
+      image: Football,
       tags: ["React", "Javascript", "Bootstrap", "Football Data API", "Vercel"],
       metrics: ["99.9% Uptime", "100+ Live Matches Displayed", "100ms Response Time"],
       features: [
