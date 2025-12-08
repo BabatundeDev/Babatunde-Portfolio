@@ -56,12 +56,12 @@ export function Navbar() {
                 <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-white group-hover:w-full transition-all duration-300" />
               </button>
             ))}
-            <Button
+            {/* <Button
               onClick={() => scrollToSection("#contact")}
               className="ml-4 bg-white text-black hover:bg-white/90 rounded-none"
             >
               Let's Talk
-            </Button>
+            </Button> */}
           </div>
 
           <Button
@@ -85,12 +85,12 @@ export function Navbar() {
                 {item.label}
               </button>
             ))}
-            <Button
+            {/* <Button
               onClick={() => scrollToSection("#contact")}
               className="w-full mt-4 bg-white text-black hover:bg-white/90 rounded-none"
             >
               Let's Talk
-            </Button>
+            </Button> */}
           </div>
         )}
 

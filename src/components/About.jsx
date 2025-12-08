@@ -27,7 +27,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
-              I'm Ishau Babatunde, a <span className="text-white">frontend developer</span> dedicated to building
+              I'm Babatunde Ishau, a <span className="text-white">frontend developer</span> dedicated to building
               interactive and engaging web experiences through thoughtful design and maintainable code.
             </p>
 
@@ -42,7 +42,7 @@ export function About() {
               optimizing performance, or delivering pixel-perfect responsive layouts, I take a holistic approach to every project.
             </p>
 
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <div className="flex items-center gap-4 text-sm">
                 <span className="text-white/40">Currently</span>
                 <div className="h-px flex-1 bg-white/10" />
@@ -50,7 +50,7 @@ export function About() {
               <p className="text-white mt-2">Founder & Lead Developer @ <span className="text-white font-semibold">Smartweblab</span></p>
               <p className="text-white/40 text-sm">Helping businesses grow online with modern, responsive web design and development</p>
 
-            </div>
+            </div> */}
           </div>
 
           <div className="relative group">
