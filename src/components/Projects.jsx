@@ -55,27 +55,27 @@ export function Projects() {
       github: "https://github.com/BabatundeDev/Football-Live",
       live: "https://football-live-omega.vercel.app/"
     },
-    // {
-    //   year: "2025",
-    //   title: "Smartweblab — Digital Agency Website",
-    //   description:
-    //     "Smartwebsitelab is a professional web design and development agency site showcasing services, expertise, and brand identity. Built with responsive design and client-focused features (e-commerce, branding, SEO), it functions as both a personal brand hub and a lead-generation platform for potential clients.",
-    //   image: Smartweblab,
-    //   tags: ["React", "Javascript", "TailwindCSS", "Firebase"],
-    //   metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
-    //   features: [
-    //     "Service Pages: Clear breakdown of service offerings — web design, business websites, e-commerce, SEO, maintenance, and branding.",
-    //     "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience.",
-    //     "Client Testimonials: Displays social proof and success stories to build trust.",
-    //     "About & Values Section: Communicates Smartweblab’s philosophy and my vision as the founder.",
-    //     "Call‑to‑Action (CTA): Prominent “Start Your Project” CTA encourages visitors to convert into leads.",
-    //     "SEO & Performance Optimization: Built to be fast and discoverable, aligning with best practices for visibility.",
-    //     "Branding & Strategy: Designs and implements digital solutions tailored to each client’s goals and business model.",
-    //     "Maintenance / Support Offering: Demonstrates continuous commitment to client success with post-launch support."
-    //   ],
-    //   github: "https://www.smartweblab.com.ng/",
-    //   live: "https://www.smartweblab.com.ng/"
-    // },
+    {
+      year: "2025",
+      title: "Smartweblab — Digital Agency Website",
+      description:
+        "Smartwebsitelab is a professional web design and development agency site showcasing services, expertise, and brand identity. Built with responsive design and client-focused features (e-commerce, branding, SEO), it functions as both a personal brand hub and a lead-generation platform for potential clients.",
+      image: Smartweblab,
+      tags: ["React", "Javascript", "TailwindCSS", "Firebase"],
+      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
+      features: [
+        "Service Pages: Clear breakdown of service offerings — web design, business websites, e-commerce, SEO, maintenance, and branding.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience.",
+        "Client Testimonials: Displays social proof and success stories to build trust.",
+        "About & Values Section: Communicates Smartweblab’s philosophy and my vision as the founder.",
+        "Call‑to‑Action (CTA): Prominent “Start Your Project” CTA encourages visitors to convert into leads.",
+        "SEO & Performance Optimization: Built to be fast and discoverable, aligning with best practices for visibility.",
+        "Branding & Strategy: Designs and implements digital solutions tailored to each client’s goals and business model.",
+        "Maintenance / Support Offering: Demonstrates continuous commitment to client success with post-launch support."
+      ],
+      github: "https://www.smartweblab.com.ng/",
+      live: "https://www.smartweblab.com.ng/"
+    },
     {
       year: "2024",
       title: "SmartDwell — Real Estate Listing Platform",
@@ -93,7 +93,7 @@ export function Projects() {
         "Property Detail Pages: Detailed pages contain photos, property description, and features.",
       ],
       // github: "",
-      live: "https://smart-dwell.vercel.app/"
+      live: "https://smartdwell.vercel.app/"
     },
     {
       year: "2025",

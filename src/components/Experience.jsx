@@ -5,17 +5,13 @@ export function Experience() {
   const experiences = [
     {
       period: "May 2025 – Present",
-      // title: "Smartweblab — Freelance Web Agency",
-      title: "Frontend Developer Intern",
-      company: "ColdAlpha",
-      location: "India (Remote)",
+      title: "Smartweblab — Freelance Web Agency",
+      company: "Smartweblab",
+      location: "Lagos, Nigeria (Remote)",
       description:
-        "Contributed to the development of websites by implementing frontend features, optimizing performance, and ensuring responsive design.",
-      // description:
-      //   "Delivered high-impact websites for business clients by orchestrating design, development, optimization, and deployment.",
+        "Delivered high-impact websites for business clients by orchestrating design, development, optimization, and deployment.",
       achievements: [
-        // "Delivered 20+ client websites with 100 percent mobile responsiveness and cross-browser stability",
-        "Developed and optimized user interfaces using React and modern frontend technologies",
+        "Delivered 20+ client websites with 100 percent mobile responsiveness and cross-browser stability",
         "Drove a 35 percent improvement in user engagement through structured UI/UX enhancements",
         "Managed complete development lifecycle including requirements, planning, build, QA, and deployment",
         "Implemented SEO and performance optimization strategies that enabled sub-2 second load times",
