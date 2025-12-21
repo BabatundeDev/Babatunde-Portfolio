@@ -32,7 +32,7 @@ export function About() {
             </p>
 
             <p className="text-white/60 leading-relaxed">
-              I focus on creating scalable, high-performance web applications using <span className="text-white">React, JavaScript, Node.js</span>,
+              I focus on creating scalable, high-performance web applications using <span className="text-white">React, JavaScript, Typescript and Node.js</span>,
               and modern web technologies. My work spans the full frontend development lifecycle from component architecture
               and state management to responsive design and smooth user interactions.
             </p>

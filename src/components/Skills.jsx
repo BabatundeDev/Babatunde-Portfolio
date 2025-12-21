@@ -110,7 +110,7 @@ export function Skills() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 justify- content-between">
             <div className="space-y-2">
               <div className="text-white/40 text-sm">Frontend</div>
-              <div className="text-white font-mono">React + Javascript</div>
+              <div className="text-white font-mono">React + Javascript+ Typescript</div>
             </div>
 
             <div className="space-y-2">
