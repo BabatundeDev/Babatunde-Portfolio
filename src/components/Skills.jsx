@@ -9,6 +9,7 @@ export function Skills() {
       skills: [
         { name: "React", level: 95 },
         { name: "Javascript", level: 85 },
+        { name: "Typescript", level: 80 },
         { name: "Tailwind CSS", level: 80 },
         { name: "Bootstrap", level: 95 },
         { name: "State Management", level: 80 },

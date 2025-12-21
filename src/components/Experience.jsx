@@ -4,7 +4,7 @@ import { Building2, Calendar } from "lucide-react"
 export function Experience() {
   const experiences = [
     {
-      period: "May 2025 – Present",
+      period: "May 2023 – Present",
       title: "Smartweblab — Freelance Web Agency",
       company: "Smartweblab",
       location: "Lagos, Nigeria (Remote)",
