@@ -37,6 +37,23 @@ export function Experience() {
       ]
     },
     {
+      period: "Sep 2025 – Present",
+      title: "Community Manager Frontend and Backend Engineering Communities",
+      company: "TechSynergy",
+      location: "Lagos, Nigeria (Remote)",
+      description:
+        "As Community Manager for TechSynergy’s Frontend and Backend developer groups, I lead engagement, knowledge sharing, and collaboration across a growing technical community.",
+      achievements: [
+        "Facilitated weekly technical knowledge sharing sessions across frontend and backend tracks",
+        "Coordinated and scheduled speakers to present on React, state management, backend systems, and tooling",
+        "Drove community engagement and accountability through structured discussions and challenges",
+        "Moderated conversations to ensure high signal technical discussions and inclusive participation",
+        "Helped foster a consistent learning culture and peer to peer support environment"
+      ],
+      stack: ["Community Building & Engagement", "Technical Communication", "Pitch & Presentation", "Leardership Pratice", "Facilitation", "Collaboration", "Content & Knowledge Management","Communication Skills"
+      ]
+    },
+    {
       period: "Oct 2023 – Present",
       title: "Frontend Developer",
       company: "Independent Projects",
