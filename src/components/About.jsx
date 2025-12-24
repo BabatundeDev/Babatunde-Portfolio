@@ -27,7 +27,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
-              I'm Babatunde Ishau, a <span className="text-white">fullstack developer</span> dedicated to building
+              I'm Babatunde Ishau, a <span className="text-white">full-stack developer</span> dedicated to building
               interactive and engaging web experiences through thoughtful design and maintainable code.
             </p>
 
@@ -68,7 +68,7 @@ export function About() {
 
             <div className="absolute bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm border-t border-white/20 p-4">
               <p className="font-mono text-sm text-white/60">Babatunde Ishau</p>
-              <p className="text-xs text-white/40">Frontend Developer</p>
+              <p className="text-xs text-white/40">Full-Stack Developer</p>
             </div>
           </div>
         </div>
