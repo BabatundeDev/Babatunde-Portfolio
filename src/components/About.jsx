@@ -27,7 +27,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
-              I'm Babatunde Ishau, a <span className="text-white">frontend developer</span> dedicated to building
+              I'm Babatunde Ishau, a <span className="text-white">fullstack developer</span> dedicated to building
               interactive and engaging web experiences through thoughtful design and maintainable code.
             </p>
 
