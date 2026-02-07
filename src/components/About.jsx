@@ -7,7 +7,7 @@ export function About() {
   const stats = [
     { icon: Code2, label: "Lines of Code", value: "500K+" },
     { icon: Zap, label: "Projects Delivered", value: "50+" },
-    { icon: Award, label: "Years Experience", value: "2+" },
+    { icon: Award, label: "Years Experience", value: "3" },
     { icon: Users, label: "Clients Worldwide", value: "20+" }
   ];
 
