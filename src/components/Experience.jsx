@@ -37,7 +37,7 @@ export function Experience() {
       ]
     },
     {
-      period: "Sep 2025 – Present",
+      period: "Sep 2025 – Jan 2025",
       title: "Community Manager Frontend and Backend Engineering Communities",
       company: "TechSynergy",
       location: "Lagos, Nigeria (Remote)",
