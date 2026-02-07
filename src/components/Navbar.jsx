@@ -37,7 +37,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="flex items-center gap-2 group">
+          <a href="" className="flex items-center gap-2 group">
             <div className="relative">
               <Terminal className="h-6 w-6 text-white" />
               <div className="absolute inset-0 bg-white/20 blur-xl group-hover:bg-white/30 transition-all" />
