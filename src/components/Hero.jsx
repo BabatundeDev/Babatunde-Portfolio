@@ -43,8 +43,8 @@ export function Hero() {
             className="text-center mb-6"
           >
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-mono tracking-tighter mb-4">
-              <span className="inline-block mr-4">FULL</span>
-              <span className="inline-block text-white/20">STACK</span>
+              <span className="inline-block mr-4">FRONTEND</span>
+              {/* <span className="inline-block text-white/20">STACK</span> */}
             </h1>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-mono tracking-tighter">
               <span className="inline-block text-white/20">DEVELOPER</span>
