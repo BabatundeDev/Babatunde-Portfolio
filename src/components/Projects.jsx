@@ -10,13 +10,50 @@ import Smartdwell from "../assets/projects/smartdwell.png";
 import Ride from "../assets/projects/ride.png"
 import Pod from "../assets/projects/pod-tshirt.png";
 import Autovista from "../assets/projects/autovista.png";
+import Abiconnect from "../assets/projects/abiconnect.png";
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
     {
-      year: "2025",
+      year: "2023",
+      title: "Smartweblab — Digital Agency Website",
+      description:
+        "Smartwebsitelab is a professional web design and development agency site showcasing services, expertise, and brand identity. Built with responsive design and client-focused features (e-commerce, branding, SEO), it functions as both a personal brand hub and a lead-generation platform for potential clients.",
+      image: Smartweblab,
+      tags: ["React", "Javascript", "TailwindCSS", "Firebase"],
+      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
+      features: [
+        "Service Pages: Clear breakdown of service offerings — web design, business websites, e-commerce, SEO, maintenance, and branding.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience.",
+        "Client Testimonials: Displays social proof and success stories to build trust.",
+        "About & Values Section: Communicates Smartweblab’s philosophy and my vision as the founder.",
+        "Call‑to‑Action (CTA): Prominent “Start Your Project” CTA encourages visitors to convert into leads.",
+        "SEO & Performance Optimization: Built to be fast and discoverable, aligning with best practices for visibility.",
+        "Branding & Strategy: Designs and implements digital solutions tailored to each client’s goals and business model.",
+        "Maintenance / Support Offering: Demonstrates continuous commitment to client success with post-launch support."
+      ],
+      github: "https://www.smartweblab.com.ng/",
+      live: "https://www.smartweblab.com.ng/"
+    },
+    {
+      year: "2026",
+      title: "AbiConnect — Digital Marketing Agency Website",
+      description:
+        "AbiConnect is a sleek, modern website for a digital marketing agency specializing in social media management, content creation, and online advertising. The site features a clean design, responsive layout, and sections that highlight services, case studies, and client testimonials. It serves as both a portfolio and lead generation tool for potential clients looking to enhance their online presence.",
+      image: Abiconnect,
+      tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
+      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
+      features: [
+        "Service Pages: Clear breakdown of service offerings — social media management, content creation, online advertising, and strategy consulting.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience."
+      ],
+      github: "https://github.com/BabatundeDev/Abiconnect-Digital",
+      live: "https://abiconnect-digital.vercel.app/"
+    },
+    {
+      year: "2024",
       title: "Flickster - Movie & TV Platform (TMDB API)",
       description:
         "Flickster is a visually rich, React-based movie discovery platform built on the TMDB API. It provides users with a seamless browsing experience to explore popular, trending, and top-rated titles. The app emphasizes performance, clean UI design, and fluid interactions making movie exploration both engaging and intuitive.",
@@ -36,7 +73,7 @@ export function Projects() {
       live: "https://flickster.vercel.app/"
     },
     {
-      year: "2025",
+      year: "2024",
       title: "Football Live Match App",
       description:
         "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
@@ -54,27 +91,6 @@ export function Projects() {
       ],
       github: "https://github.com/BabatundeDev/Football-Live",
       live: "https://football-live-omega.vercel.app/"
-    },
-    {
-      year: "2025",
-      title: "Smartweblab — Digital Agency Website",
-      description:
-        "Smartwebsitelab is a professional web design and development agency site showcasing services, expertise, and brand identity. Built with responsive design and client-focused features (e-commerce, branding, SEO), it functions as both a personal brand hub and a lead-generation platform for potential clients.",
-      image: Smartweblab,
-      tags: ["React", "Javascript", "TailwindCSS", "Firebase"],
-      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
-      features: [
-        "Service Pages: Clear breakdown of service offerings — web design, business websites, e-commerce, SEO, maintenance, and branding.",
-        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience.",
-        "Client Testimonials: Displays social proof and success stories to build trust.",
-        "About & Values Section: Communicates Smartweblab’s philosophy and my vision as the founder.",
-        "Call‑to‑Action (CTA): Prominent “Start Your Project” CTA encourages visitors to convert into leads.",
-        "SEO & Performance Optimization: Built to be fast and discoverable, aligning with best practices for visibility.",
-        "Branding & Strategy: Designs and implements digital solutions tailored to each client’s goals and business model.",
-        "Maintenance / Support Offering: Demonstrates continuous commitment to client success with post-launch support."
-      ],
-      github: "https://www.smartweblab.com.ng/",
-      live: "https://www.smartweblab.com.ng/"
     },
     {
       year: "2024",
