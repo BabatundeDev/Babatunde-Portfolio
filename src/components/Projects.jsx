@@ -11,11 +11,32 @@ import Ride from "../assets/projects/ride.png"
 import Pod from "../assets/projects/pod-tshirt.png";
 import Autovista from "../assets/projects/autovista.png";
 import Abiconnect from "../assets/projects/abiconnect.png";
+import Veloura from "../assets/projects/veloura-freight.png";
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+      year: "2026",
+      title: "Veloura Freight Logistics",
+      description:
+        "Veloura is a modern freight logistics web application designed to streamline the shipping process for businesses. It offers features like shipment tracking, route optimization, and real-time updates. The platform is built with a clean, intuitive interface and is optimized for performance and responsiveness across devices.",
+      image: Veloura,
+      tags: ["React", "Typescript", "TailwindCSS", "Vercel"],
+      metrics: ["100+ Shipments Tracked", "95% On-Time Delivery Rate (Simulated)", "99% Mobile Responsiveness Score"],
+      features: [
+        "Shipment Tracking: Real-time tracking of shipments with status updates and location information.",
+        "Freight Cost Calculator: Provides cost estimates based on distance, weight, and delivery speed.",
+        "Route Optimization: Intelligent route planning to minimize delivery times and costs.",
+        "User Dashboard: Centralized dashboard for users to manage shipments, view history, and access support.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to provide a seamless user experience.",
+        "Performance Optimization: Fast load times and smooth interactions for a better user experience.",
+        "Clean UI/UX: Focuses on simplicity and ease of use with intuitive navigation and controls."
+      ],
+      github: "https://github.com/BabatundeDev/Veloura-Freight",
+      live: "https://veloura-freight.vercel.app/"
+    },
     {
       year: "2023",
       title: "Smartweblab — Digital Agency Website",
