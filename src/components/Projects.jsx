@@ -3,7 +3,7 @@ import { ExternalLink, Github, ArrowRight, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./image/ImageWithFallback";
 
-import Flickster from "../assets/projects/flickster.png";
+import Cineprime from "../assets/projects/cineprime.png";
 import Football from "../assets/projects/football-live.png";
 import Smartweblab from "../assets/projects/smartweblab.png";
 import Smartdwell from "../assets/projects/smartdwell.png";
@@ -36,6 +36,32 @@ export function Projects() {
       ],
       github: "https://github.com/BabatundeDev/Veloura-Freight",
       live: "https://veloura-freight.vercel.app/"
+    },
+    {
+      year: "2024",
+      title: "CinePrime - Movie & TV Platform (TMDB API)",
+      description:
+        "CinePrime is a polished movie discovery web app built with React and TypeScript, designed to help users explore and curate movies from The Movie Database (TMDB). It combines modern UI/UX, performance optimizations, and convenient personalization features to deliver an engaging browsing experience.",
+      image: Cineprime,
+      tags: ["React", "Typescript", "Javascript", "Eslint", "CSS", "TMDB API", "Vercel"],
+      metrics: ["99.9% Uptime", "70+ Users", "100ms Response Time"],
+      features: [
+        "Movie Discovery Sliders: This feature allows users to browse movies across multiple categories like popular, top-rated, now-playing, and upcoming films. It uses horizontal scroll layouts for intuitive navigation, making it easy to discover new content without overwhelming the interface",
+
+        "Search Functionality: Users can perform live searches for movies by title, with a debounced input that prevents excessive API calls. Results appear instantly in a dedicated slider, providing quick access to specific films while handling empty results gracefully.",
+
+        "Movie Details Modal: Clicking on any movie card opens a detailed modal that displays comprehensive information including high-resolution posters, title, release year, rating, plot overview, and vote statistics. The modal is fully accessible with keyboard navigation and includes options to close via button or outside click.",
+
+        "Favorites Management: Users can add or remove movies from a personal favorites list using a heart-shaped toggle in the modal. Favorites are stored in the browser's localStorage, ensuring persistence across sessions, and a dedicated slider shows favorited movies when available.",
+
+        "Theme Toggle: The app supports switching between light and dark themes, with the user's preference saved in localStorage. This enhances usability by adapting to different viewing environments and personal preferences.",
+
+        "User Experience Enhancements: The app includes skeleton loaders for movie cards and spinners for search operations to improve perceived performance. It features robust error handling with retry options for API failures, responsive design that adapts to various screen sizes, and accessibility features like ARIA labels and focus management.",
+
+        "Performance Optimizations: Lazy loading and efficient rendering to keep the UI snappy."
+      ],
+      github: "https://github.com/BabatundeDev/CinePrime",
+      live: "https://cineprime-movie.vercel.app/"
     },
     {
       year: "2023",
@@ -72,26 +98,6 @@ export function Projects() {
       ],
       github: "https://github.com/BabatundeDev/Abiconnect-Digital",
       live: "https://abiconnect-digital.vercel.app/"
-    },
-    {
-      year: "2024",
-      title: "Flickster - Movie & TV Platform (TMDB API)",
-      description:
-        "Flickster is a visually rich, React-based movie discovery platform built on the TMDB API. It provides users with a seamless browsing experience to explore popular, trending, and top-rated titles. The app emphasizes performance, clean UI design, and fluid interactions making movie exploration both engaging and intuitive.",
-      image: Flickster,
-      tags: ["React", "Javascript", "CSS", "TMDB API", "Vercel"],
-      metrics: ["99.9% Uptime", "70+ Users", "100ms Response Time"],
-      features: [
-        "TMDB API Integration: Fetches real-time data for movies and TV shows trending, top-rated, upcoming, and more.",
-        "Dynamic Search & Filter: Users can search by title or filter by genre to quickly find relevant content.",
-        "Responsive Design: Works smoothly across devices (mobile, tablet, desktop) with consistent layout and user experience.",
-        "Animated Carousels / Sliders: Genre-based movie carousels let users swipe through movie posters elegantly.",
-        "Detailed Movie Views: Clicking a movie reveals essential details like overview, release date, rating, and poster.",
-        "Theme Toggle: Potential for dark/light mode for better UX.",
-        "Performance Optimizations: Lazy loading and efficient rendering to keep the UI snappy."
-      ],
-      github: "https://github.com/BabatundeDev/Flickster",
-      live: "https://flickster.vercel.app/"
     },
     {
       year: "2024",
