@@ -119,19 +119,50 @@ export function Contact() {
           <div className="border border-white/10 p-8">
             <form
               className="contact-form space-y-6"
-              action="https://formsubmit.co/ishaubabatunde49@gmail.com"
+              action="https://api.web3forms.com/submit"
               method="POST"
             >
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
+              {/* Web3Forms Access Key */}
+              <input
+                type="hidden"
+                name="access_key"
+                value="78dd5f36-fe70-48ef-b9b4-dae9d91ffdd9"
+              />
+
+              {/* Email Subject */}
+              <input
+                type="hidden"
+                name="subject"
+                value="New Portfolio Contact Message"
+              />
+
+              {/* Sender Name */}
+              <input
+                type="hidden"
+                name="from_name"
+                value="Ishau Babatunde Portfolio"
+              />
+
+              {/* Spam Protection */}
+              <input
+                type="checkbox"
+                name="botcheck"
+                className="hidden"
+                style={{ display: "none" }}
+              />
 
               <div>
-                <label htmlFor="name" className="block text-sm text-white/60 mb-2 font-mono">
+                <label
+                  htmlFor="name"
+                  className="block text-sm text-white/60 mb-2 font-mono"
+                >
                   Your Name
                 </label>
+
                 <Input
                   id="name"
                   name="name"
+                  type="text"
                   placeholder="First Last"
                   required
                   className="bg-transparent border-white/20 text-white placeholder:text-white/30 focus:border-white rounded-none"
@@ -139,26 +170,34 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm text-white/60 mb-2 font-mono">
+                <label
+                  htmlFor="email"
+                  className="block text-sm text-white/60 mb-2 font-mono"
+                >
                   Your Email
                 </label>
+
                 <Input
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="tunde@example.com"
+                  placeholder="@example.com"
                   required
                   className="bg-transparent border-white/20 text-white placeholder:text-white/30 focus:border-white rounded-none"
                 />
               </div>
-
               <div>
-                <label htmlFor="subject" className="block text-sm text-white/60 mb-2 font-mono">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm text-white/60 mb-2 font-mono"
+                >
                   Subject
                 </label>
+
                 <Input
                   id="subject"
-                  name="subject"
+                  name="user_subject"
+                  type="text"
                   placeholder="Project Inquiry"
                   required
                   className="bg-transparent border-white/20 text-white placeholder:text-white/30 focus:border-white rounded-none"
@@ -166,16 +205,20 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm text-white/60 mb-2 font-mono">
+                <label
+                  htmlFor="message"
+                  className="block text-sm text-white/60 mb-2 font-mono"
+                >
                   Message
                 </label>
+
                 <Textarea
                   id="message"
                   name="message"
                   rows={6}
-                  className="bg-transparent border-white/20 text-white placeholder:text-white/30 focus:border-white rounded-none resize-none min-h-[180px]"
                   placeholder="Tell me about your project..."
                   required
+                  className="bg-transparent border-white/20 text-white placeholder:text-white/30 focus:border-white rounded-none resize-none min-h-[180px]"
                 />
               </div>
 
