@@ -96,8 +96,8 @@ export function Projects() {
         "Service Pages: Clear breakdown of service offerings — social media management, content creation, online advertising, and strategy consulting.",
         "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience."
       ],
-      github: "https://github.com/BabatundeDev/Abiconnect-Digital",
-      live: "https://abiconnect-digital.vercel.app/"
+      github: "https://github.com/BabatundeDev/omoteshobisola",
+      live: "https://omoteshobisola.vercel.app/"
     },
     {
       year: "2024",
