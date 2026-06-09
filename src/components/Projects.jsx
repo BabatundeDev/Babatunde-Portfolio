@@ -20,16 +20,20 @@ export function Projects() {
   const projects = [
     {
       year: "2026",
-      title: "SupplyGuard AI",
+      title: "SupplyGuard AI Dashboard",
       description: "SupplyGuard AI is a full-stack, AI-powered supply chain risk intelligence platform built for the automotive industry. The platform proactively detects, predicts, and mitigates supply chain disruptions by scoring supplier risk in real time using machine learning, recommending alternate sourcing strategies, and forecasting inventory demand, giving automotive OEMs the early warning intelligence they need to prevent production shutdowns before they happen.",
       image: SupplyGuard,
       tags: ["React 18", "Recharts", "Custom CSS variables", "Vercel", "Python FastAPI", "10 REST endpoints", "Render"],
       metrics: ["R²0.982 Risk model accuracy", "50 Suppliers tracked across 8 countries", "73% Disruption detection speed", "$2.1 Million Estimated annual savings per OEM", "40% Inventory efficiency improvement", "10 Live API endpoints in production"],
       features: [
         "AI Risk Radar — A GradientBoosting machine learning model scores every supplier from 0 to 100 using six features: country risk index, geopolitical score, lead time, supplier rating, price volatility, and capacity utilisation. Suppliers are ranked in real time so the most critical risks surface immediately.",
+
         "Alternate Sourcing Engine — When a supplier is flagged as high risk, the platform fires a live API call to recommend the lowest-risk backup suppliers for the same material category, quantifying exactly how many risk points are saved by switching.",
+
         "Demand Forecasting — A Holt-Winters Exponential Smoothing model projects 12 weeks of inventory demand with 80% confidence bands across Semiconductors, Battery Metals, and Steel — giving procurement teams a data-driven reorder schedule.",
+
         "Live Disruption Alerts — A real-time feed aggregates geopolitical events and AI-detected supplier-level disruptions, auto-refreshing every 60 seconds with severity classification across Critical, High, Medium, and Low.",
+        
         "Interactive Dashboard — A dark-mode React dashboard with four screens — Overview, Supplier Intelligence, Demand Forecast, and Disruption Alerts — with sortable tables, material filters, loading states, error handling, and a modal-based alternate sourcing interface."
       ],
       github: "https://github.com/BabatundeDev/SupplyGuard",
