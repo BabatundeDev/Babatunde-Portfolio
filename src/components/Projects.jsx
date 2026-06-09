@@ -3,6 +3,7 @@ import { ExternalLink, Github, ArrowRight, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./image/ImageWithFallback";
 
+import SupplyGuard from "../assets/projects/supplyguard.png";
 import Cineprime from "../assets/projects/cineprime.png";
 import Football from "../assets/projects/football-live.png";
 import Smartweblab from "../assets/projects/smartweblab.png";
@@ -17,6 +18,23 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+      year: "2026",
+      title: "SupplyGuard AI",
+      description: "SupplyGuard AI is a full-stack, AI-powered supply chain risk intelligence platform built for the automotive industry. The platform proactively detects, predicts, and mitigates supply chain disruptions by scoring supplier risk in real time using machine learning, recommending alternate sourcing strategies, and forecasting inventory demand, giving automotive OEMs the early warning intelligence they need to prevent production shutdowns before they happen.",
+      image: SupplyGuard,
+      tags: ["React 18", "Recharts", "Custom CSS variables", "Vercel", "Python FastAPI", "10 REST endpoints", "Render"],
+      metrics: ["R²0.982 Risk model accuracy", "50 Suppliers tracked across 8 countries", "73% Disruption detection speed", "$2.1 Million Estimated annual savings per OEM", "40% Inventory efficiency improvement", "10 Live API endpoints in production"],
+      features: [
+        "AI Risk Radar — A GradientBoosting machine learning model scores every supplier from 0 to 100 using six features: country risk index, geopolitical score, lead time, supplier rating, price volatility, and capacity utilisation. Suppliers are ranked in real time so the most critical risks surface immediately.",
+        "Alternate Sourcing Engine — When a supplier is flagged as high risk, the platform fires a live API call to recommend the lowest-risk backup suppliers for the same material category, quantifying exactly how many risk points are saved by switching.",
+        "Demand Forecasting — A Holt-Winters Exponential Smoothing model projects 12 weeks of inventory demand with 80% confidence bands across Semiconductors, Battery Metals, and Steel — giving procurement teams a data-driven reorder schedule.",
+        "Live Disruption Alerts — A real-time feed aggregates geopolitical events and AI-detected supplier-level disruptions, auto-refreshing every 60 seconds with severity classification across Critical, High, Medium, and Low.",
+        "Interactive Dashboard — A dark-mode React dashboard with four screens — Overview, Supplier Intelligence, Demand Forecast, and Disruption Alerts — with sortable tables, material filters, loading states, error handling, and a modal-based alternate sourcing interface."
+      ],
+      github: "https://github.com/BabatundeDev/SupplyGuard",
+      live: "http://supplyguard-dashboard.vercel.app/"
+    },
     {
       year: "2026",
       title: "Veloura Freight Logistics",
@@ -64,42 +82,6 @@ export function Projects() {
       live: "https://cineprime-movie.vercel.app/"
     },
     {
-      year: "2023",
-      title: "Smartweblab — Digital Agency Website",
-      description:
-        "Smartwebsitelab is a professional web design and development agency site showcasing services, expertise, and brand identity. Built with responsive design and client-focused features (e-commerce, branding, SEO), it functions as both a personal brand hub and a lead-generation platform for potential clients.",
-      image: Smartweblab,
-      tags: ["React", "Javascript", "TailwindCSS", "Firebase"],
-      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
-      features: [
-        "Service Pages: Clear breakdown of service offerings — web design, business websites, e-commerce, SEO, maintenance, and branding.",
-        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience.",
-        "Client Testimonials: Displays social proof and success stories to build trust.",
-        "About & Values Section: Communicates Smartweblab’s philosophy and my vision as the founder.",
-        "Call‑to‑Action (CTA): Prominent “Start Your Project” CTA encourages visitors to convert into leads.",
-        "SEO & Performance Optimization: Built to be fast and discoverable, aligning with best practices for visibility.",
-        "Branding & Strategy: Designs and implements digital solutions tailored to each client’s goals and business model.",
-        "Maintenance / Support Offering: Demonstrates continuous commitment to client success with post-launch support."
-      ],
-      github: "https://www.smartweblab.com.ng/",
-      live: "https://www.smartweblab.com.ng/"
-    },
-    {
-      year: "2026",
-      title: "AbiConnect — Digital Marketing Agency Website",
-      description:
-        "AbiConnect is a sleek, modern website for a digital marketing agency specializing in social media management, content creation, and online advertising. The site features a clean design, responsive layout, and sections that highlight services, case studies, and client testimonials. It serves as both a portfolio and lead generation tool for potential clients looking to enhance their online presence.",
-      image: Abiconnect,
-      tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
-      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
-      features: [
-        "Service Pages: Clear breakdown of service offerings — social media management, content creation, online advertising, and strategy consulting.",
-        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience."
-      ],
-      github: "https://github.com/BabatundeDev/omoteshobisola",
-      live: "https://omoteshobisola.vercel.app/"
-    },
-    {
       year: "2024",
       title: "Football Live Match App",
       description:
@@ -125,7 +107,7 @@ export function Projects() {
       description:
         "SmartDwell is a real estate web application designed to showcase property listings in a user-friendly, modern interface. It allows users to browse homes, view property details, and connect with listing agents. With a clean design and intuitive navigation, SmartDwell is crafted to deliver a seamless property search experience on both desktop and mobile.",
       image: Smartdwell,
-      tags: ["React", "Bootstrap", "Firebase", "Vercel"],
+      tags: ["HTML", "Bootstrap", "CSS", "JavaScript", "Vercel"],
       metrics: ["500+ Property Views / Month", "200ms Page Load Time", "90% Mobile Responsiveness Score"],
       features: [
         "Property Listings: Displays real estates with relevant information: images, price, location, and key property specs.",
@@ -135,8 +117,23 @@ export function Projects() {
         "Save Favorite Listings: Users can bookmark properties they like for later review.",
         "Property Detail Pages: Detailed pages contain photos, property description, and features.",
       ],
-      // github: "",
+      github: "https://github.com/BabatundeDev/SmartDwell",
       live: "https://smartdwell.vercel.app/"
+    },
+    {
+      year: "2026",
+      title: "AbiConnect — Digital Marketing Agency Website",
+      description:
+        "AbiConnect is a sleek, modern website for a digital marketing agency specializing in social media management, content creation, and online advertising. The site features a clean design, responsive layout, and sections that highlight services, case studies, and client testimonials. It serves as both a portfolio and lead generation tool for potential clients looking to enhance their online presence.",
+      image: Abiconnect,
+      tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
+      metrics: ["100+ Leads Generated via Contact Form", "4.8/5 Client Satisfaction Rating", "Mobile-First Design Across 3+ Breakpoints"],
+      features: [
+        "Service Pages: Clear breakdown of service offerings — social media management, content creation, online advertising, and strategy consulting.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to give clients a seamless browsing experience."
+      ],
+      github: "https://github.com/BabatundeDev/omoteshobisola",
+      live: "https://omoteshobisola.vercel.app/"
     },
     {
       year: "2025",
@@ -176,25 +173,6 @@ export function Projects() {
       ],
       github: "https://github.com/BabatundeDev/Pod-Tshirt-Store",
       live: "https://pod-tshirt-store.vercel.app/"
-    },
-    {
-      year: "2025",
-      title: "AutoVista — Automotive Marketplace Web App",
-      description:
-        "AutoVista is a sleek, modern automotive marketplace web app designed to showcase vehicle inventory with an intuitive UI. It provides detailed listings, high‑quality visuals, and a responsive layout to help users browse cars effortlessly. The app is built with performance, usability, and strong visual presentation in mind ideal for dealership-style or auto listing platforms.",
-      image: Autovista,
-      tags: ["React", "Javascript", "TailwindCSS", "Vercel"],
-      metrics: ["90%+ Responsive Compatibility Score", "2s Page Load for Vehicle Pages", "50+ Inquiries Leads Generated (Demo Mode)"],
-      features: [
-        "Comprehensive vehicle listings with images, make, model, year, price, and details.",
-        "Search and filter options (e.g. by brand, model, price range) to help users find the right car quickly.",
-        "Detailed vehicle detail pages with full specs and high-resolution photos.",
-        "Responsive design across mobile, tablet, and desktop for a smooth user experience.",
-        "Professional visual layout: high-quality photos + clean typography for trust and clarity.",
-        "Call-to-action buttons for inquiries or test-drive bookings."
-      ],
-      // github: "",
-      live: "https://auto-vista-eight.vercel.app/"
     }
   ];
 

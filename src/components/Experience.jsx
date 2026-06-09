@@ -52,21 +52,6 @@ export function Experience() {
       ],
       stack: ["Community Building & Engagement", "Technical Communication", "Pitch & Presentation", "Leardership Pratice", "Facilitation", "Collaboration", "Content & Knowledge Management","Communication Skills"
       ]
-    },
-    {
-      period: "Oct 2023 – Present",
-      title: "Frontend Developer",
-      company: "Independent Projects",
-      location: "Lagos, Nigeria (Remote)",
-      description:
-        "Executed end-to-end web applications for learning, experimentation, and real-world usage.",
-      achievements: [
-        "Achieved 100 percent deployment success rate across GitHub Pages and Vercel",
-        "Integrated third-party APIs to power real-time and dynamic experiences",
-        "Continually optimized interfaces, improving Lighthouse mobile scores from 70s to 100",
-        "Delivered consistent results using mobile-first, scalable component architecture"
-      ],
-      stack: ["React", "Javascript", "TailwindCSS", "Bootstrap", "Node.js", "Firebase", "HTML5", "CSS3", "REST APIs", "Git", "Vercel", "GitHub Pages", "Performance Optimization", "Responsive Design", "Component-Based Architecture", "Generated Ai Tools"]
     }
   ]
 
