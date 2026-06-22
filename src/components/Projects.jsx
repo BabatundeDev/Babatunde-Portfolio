@@ -4,15 +4,15 @@ import { Button } from "./ui/button";
 import { ImageWithFallback } from "./image/ImageWithFallback";
 
 import SupplyGuard from "../assets/projects/supplyguard.png";
-import Cineprime from "../assets/projects/cineprime.png";
-import Football from "../assets/projects/football-live.png";
-import Smartweblab from "../assets/projects/smartweblab.png";
+import Moviehub from "../assets/projects/moviehub.png";
+import Cineprime from "../assets/projects/cineprime.png"
+import Veloura from "../assets/projects/veloura-freight.png";
 import Smartdwell from "../assets/projects/smartdwell.png";
+import Football from "../assets/projects/football-live.png";
+import Abiconnect from "../assets/projects/abiconnect.png";
 import Ride from "../assets/projects/ride.png"
 import Pod from "../assets/projects/pod-tshirt.png";
-import Autovista from "../assets/projects/autovista.png";
-import Abiconnect from "../assets/projects/abiconnect.png";
-import Veloura from "../assets/projects/veloura-freight.png";
+
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -33,7 +33,7 @@ export function Projects() {
         "Demand Forecasting — A Holt-Winters Exponential Smoothing model projects 12 weeks of inventory demand with 80% confidence bands across Semiconductors, Battery Metals, and Steel — giving procurement teams a data-driven reorder schedule.",
 
         "Live Disruption Alerts — A real-time feed aggregates geopolitical events and AI-detected supplier-level disruptions, auto-refreshing every 60 seconds with severity classification across Critical, High, Medium, and Low.",
-        
+
         "Interactive Dashboard — A dark-mode React dashboard with four screens — Overview, Supplier Intelligence, Demand Forecast, and Disruption Alerts — with sortable tables, material filters, loading states, error handling, and a modal-based alternate sourcing interface."
       ],
       github: "https://github.com/BabatundeDev/SupplyGuard",
@@ -41,26 +41,32 @@ export function Projects() {
     },
     {
       year: "2026",
-      title: "Veloura Freight Logistics",
+      title: "MovieHub - Movie Discovery Dashboard (TMDB API)",
       description:
-        "Veloura is a modern freight logistics web application designed to streamline the shipping process for businesses. It offers features like shipment tracking, route optimization, and real-time updates. The platform is built with a clean, intuitive interface and is optimized for performance and responsiveness across devices.",
-      image: Veloura,
-      tags: ["React", "Typescript", "TailwindCSS", "Vercel"],
-      metrics: ["100+ Shipments Tracked", "95% On-Time Delivery Rate (Simulated)", "99% Mobile Responsiveness Score"],
+        "MovieHub is a modern movie discovery dashboard built with React and TypeScript, designed to help users explore movies from The Movie Database (TMDB). It features a clean dark UI, seamless API integration, and a fully responsive layout optimized for both desktop and mobile.",
+      image: Moviehub,
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "TanStack Query", "Axios", "React Router", "TMDB API", "Vercel"],
+      metrics: ["99.9% Uptime", "Sub-100ms Response Time", "Mobile Responsive"],
       features: [
-        "Shipment Tracking: Real-time tracking of shipments with status updates and location information.",
-        "Freight Cost Calculator: Provides cost estimates based on distance, weight, and delivery speed.",
-        "Route Optimization: Intelligent route planning to minimize delivery times and costs.",
-        "User Dashboard: Centralized dashboard for users to manage shipments, view history, and access support.",
-        "Responsive Design: Optimized for mobile, tablet, and desktop to provide a seamless user experience.",
-        "Performance Optimization: Fast load times and smooth interactions for a better user experience.",
-        "Clean UI/UX: Focuses on simplicity and ease of use with intuitive navigation and controls."
+        "Movie Discovery: Browse movies across multiple curated sections including Now Playing, Popular, Top Rated, and Upcoming. Each section displays a responsive card grid with poster images, ratings, titles, and release years for quick at-a-glance exploration.",
+
+        "Search & Filters: A debounced search input prevents excessive API calls while delivering instant results. Users can filter movies by genre, release year, rating, and sort order, with a one-click clear filters option and intelligent routing between search and discover endpoints.",
+
+        "Movie Details Page: Clicking any movie card navigates to a dedicated details page featuring the movie backdrop, poster, title, rating, runtime, language, tagline, full overview, genres, director, top cast, budget, revenue, and a similar movies section.",
+
+        "Favorites Management: Users can add or remove movies from a personal favorites list directly from the details page using a heart toggle button, with visual state feedback between saved and unsaved states.",
+
+        "Responsive Sidebar Navigation: A persistent sidebar on desktop collapses into a slide-in drawer on mobile, triggered by a hamburger menu with a backdrop overlay and smooth transition animations.",
+
+        "Async State Management: TanStack Query handles all data fetching with intelligent caching, background refetching, and a 5-minute stale time. Every data-fetching surface includes animated skeleton loaders, error states with messaging, and empty state fallbacks.",
+
+        "Clean Architecture: Strict TypeScript throughout with zero use of any. API calls are fully abstracted in a centralized Axios client, consumed via typed hooks — keeping components clean and the data layer independently maintainable."
       ],
-      github: "https://github.com/BabatundeDev/Veloura-Freight",
-      live: "https://veloura-freight.vercel.app/"
+      github: "https://github.com/BabatundeDev/moviehub",
+      live: "https://moviehub-dashboard.vercel.app/"
     },
     {
-      year: "2024",
+      year: "2025",
       title: "CinePrime - Movie & TV Platform (TMDB API)",
       description:
         "CinePrime is a polished movie discovery web app built with React and TypeScript, designed to help users explore and curate movies from The Movie Database (TMDB). It combines modern UI/UX, performance optimizations, and convenient personalization features to deliver an engaging browsing experience.",
@@ -86,24 +92,24 @@ export function Projects() {
       live: "https://cineprime-movie.vercel.app/"
     },
     {
-      year: "2024",
-      title: "Football Live Match App",
+      year: "2026",
+      title: "Veloura Freight Logistics",
       description:
-        "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
-      image: Football,
-      tags: ["React", "Javascript", "Bootstrap", "Football Data API", "Vercel"],
-      metrics: ["99.9% Uptime", "100+ Live Matches Displayed", "100ms Response Time"],
+        "Veloura is a modern freight logistics web application designed to streamline the shipping process for businesses. It offers features like shipment tracking, route optimization, and real-time updates. The platform is built with a clean, intuitive interface and is optimized for performance and responsiveness across devices.",
+      image: Veloura,
+      tags: ["React", "Typescript", "TailwindCSS", "Vercel"],
+      metrics: ["100+ Shipments Tracked", "95% On-Time Delivery Rate (Simulated)", "99% Mobile Responsiveness Score"],
       features: [
-        "Real-time API Integration: Fetches live football match data, upcoming fixtures, and team information via a football data API.",
-        "Match Cards: Displays live and scheduled matches in an organized, card-based layout, showing team names, times, and status.",
-        "Responsive Design: Fully responsive grid adapts to desktop, tablet, and mobile views for a cohesive user experience.",
-        "Interactive UI: Hover and click effects to highlight match details; state-based rendering for live vs upcoming games.",
-        "Placeholder Video / Watch Button: Includes a design placeholder for match stream or replay.",
-        "Performance Optimization: Efficient data fetching and rendering to handle live updates without lag.",
-        "Error Handling: Manages API errors gracefully, showing fallback UI when data is unavailable."
+        "Shipment Tracking: Real-time tracking of shipments with status updates and location information.",
+        "Freight Cost Calculator: Provides cost estimates based on distance, weight, and delivery speed.",
+        "Route Optimization: Intelligent route planning to minimize delivery times and costs.",
+        "User Dashboard: Centralized dashboard for users to manage shipments, view history, and access support.",
+        "Responsive Design: Optimized for mobile, tablet, and desktop to provide a seamless user experience.",
+        "Performance Optimization: Fast load times and smooth interactions for a better user experience.",
+        "Clean UI/UX: Focuses on simplicity and ease of use with intuitive navigation and controls."
       ],
-      github: "https://github.com/BabatundeDev/Football-Live",
-      live: "https://football-live-omega.vercel.app/"
+      github: "https://github.com/BabatundeDev/Veloura-Freight",
+      live: "https://veloura-freight.vercel.app/"
     },
     {
       year: "2024",
@@ -123,6 +129,26 @@ export function Projects() {
       ],
       github: "https://github.com/BabatundeDev/SmartDwell",
       live: "https://smartdwell.vercel.app/"
+    },
+    {
+      year: "2024",
+      title: "Football Live Match App",
+      description:
+        "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
+      image: Football,
+      tags: ["React", "Javascript", "Bootstrap", "Football Data API", "Vercel"],
+      metrics: ["99.9% Uptime", "100+ Live Matches Displayed", "100ms Response Time"],
+      features: [
+        "Real-time API Integration: Fetches live football match data, upcoming fixtures, and team information via a football data API.",
+        "Match Cards: Displays live and scheduled matches in an organized, card-based layout, showing team names, times, and status.",
+        "Responsive Design: Fully responsive grid adapts to desktop, tablet, and mobile views for a cohesive user experience.",
+        "Interactive UI: Hover and click effects to highlight match details; state-based rendering for live vs upcoming games.",
+        "Placeholder Video / Watch Button: Includes a design placeholder for match stream or replay.",
+        "Performance Optimization: Efficient data fetching and rendering to handle live updates without lag.",
+        "Error Handling: Manages API errors gracefully, showing fallback UI when data is unavailable."
+      ],
+      github: "https://github.com/BabatundeDev/Football-Live",
+      live: "https://football-live-omega.vercel.app/"
     },
     {
       year: "2026",

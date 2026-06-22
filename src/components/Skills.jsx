@@ -8,6 +8,7 @@ export function Skills() {
       title: "Frontend",
       skills: [
         { name: "React", level: 95 },
+        { name: "NextJs", level: 90 },
         { name: "Javascript", level: 85 },
         { name: "Typescript", level: 80 },
         { name: "Tailwind CSS", level: 80 },
@@ -23,6 +24,8 @@ export function Skills() {
       skills: [
         { name: "Node.js", level: 80 },
         { name: "Express", level: 80 },
+        { name: "Python", level: 70 },
+        { name: "Database Management", level: 75 },
         { name: "REST API integration", level: 80 },
         { name: "Cloud deployments", level: 90 }
       ]
@@ -31,10 +34,11 @@ export function Skills() {
       title: "Tools & Practices",
       skills: [
         { name: "Git / GitHub", level: 95 },
+        {name: "Ai Tools", level: 95},
         { name: "VS Code", level: 95 },
         { name: "System Design", level: 85 },
         { name: "Code editors and developer consoles", level: 85 },
-        { name: "Figma", level: 70 },
+        { name: "Figma", level: 80 },
         { name: "Performance Optimization", level: 80 }
       ]
     },
@@ -107,10 +111,11 @@ export function Skills() {
         <div className="mt-24 border border-white/10 p-8">
           <h3 className="text-xl font-mono mb-6">Current Tech Stack</h3>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 justify- content-between">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 justify- content-between">
             <div className="space-y-2">
               <div className="text-white/40 text-sm">Frontend</div>
-              <div className="text-white font-mono">React + Javascript + Typescript</div>
+              <div className="text-white font-mono">React + Javascript +
+                NextJs + Typescript</div>
             </div>
 
             <div className="space-y-2">
@@ -120,7 +125,7 @@ export function Skills() {
 
             <div className="space-y-2">
               <div className="text-white/40 text-sm">Backend</div>
-              <div className="text-white font-mono">Node.js + Express + Firebase</div>
+              <div className="text-white font-mono">Node.js + Express + Python + Firebase</div>
             </div>
 
           </div>

@@ -60,8 +60,9 @@ export function Hero() {
           >
             <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed">
               Building scalable, high-performance web applications with modern technologies.
-              Specialized in <span className="text-white">React</span>, <span className="text-white">JavaScript, Typescript</span>,
-              and <span className="text-white">Node.js</span>.
+              Specialized in <span className="text-white">React</span>,{" "}
+              <span className="text-white">JavaScript, TypeScript</span>,
+              and <span className="text-white">Next.js</span>.
             </p>
 
           </motion.div>

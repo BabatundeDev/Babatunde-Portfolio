@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Send, Github, Linkedin, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -37,7 +37,7 @@ export function Contact() {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/BabatundeDev" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/babatunde-ishau-95ab94359" },
-    { icon: Twitter, label: "Twitter", href: "https://x.com/BabatundeIshau" }
+    { icon: Mail, label: "email", href: "mailto:ishaubabatunde49@gmail.com" }
   ];
 
   return (

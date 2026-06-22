@@ -7,8 +7,8 @@ export function About() {
   const stats = [
     { icon: Code2, label: "Lines of Code", value: "500K+" },
     { icon: Zap, label: "Projects Delivered", value: "50+" },
-    { icon: Award, label: "Years Experience", value: "3" },
-    { icon: Users, label: "Clients Worldwide", value: "20+" }
+    { icon: Award, label: "Years Experience", value: "3+" },
+    { icon: Users, label: "Clients Worldwide", value: "30+" }
   ];
 
   return (
@@ -32,7 +32,7 @@ export function About() {
             </p>
 
             <p className="text-white/60 leading-relaxed">
-              I focus on creating scalable, high-performance web applications using <span className="text-white">React, JavaScript, Typescript and Node.js</span>,
+              I focus on creating scalable, high-performance web applications using <span className="text-white">React, JavaScript, Typescript and Python</span>,
               and modern web technologies. My work spans the full frontend development lifecycle from component architecture
               and state management to responsive design and smooth user interactions.
             </p>

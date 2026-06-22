@@ -20,7 +20,7 @@ export function Experience() {
       stack: ["React", "Javascript", "Node.js", "Firebase", "TailwindCSS", "Bootstrap", "Responsive Design", "SEO", "Git", "UI/UX Optimization", "Performance Tuning", "Deployment", "Client Communication", "Project Management", "REST APIs"]
     },
     {
-      period: "Aug 2025 – Oct 2025",
+      period: "Aug 2024 – Dec 2024",
       title: "Frontend Developer Intern",
       company: "Nobel Learning PBC",
       location: "United States (Remote)",
@@ -37,7 +37,7 @@ export function Experience() {
       ]
     },
     {
-      period: "Sep 2025 – Jan 2025",
+      period: "Sep 2025 – Jan 2026",
       title: "Community Manager Frontend and Backend Engineering Communities",
       company: "TechSynergy",
       location: "Lagos, Nigeria (Remote)",
