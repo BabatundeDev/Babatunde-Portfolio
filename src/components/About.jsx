@@ -27,29 +27,40 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
-              I'm Babatunde Ishau, a <span className="text-white">full-stack developer</span> dedicated to building
-              interactive and engaging web experiences through thoughtful design and maintainable code.
+              I'm Babatunde Ishau, a Full-Stack Engineer and AI Specialist dedicated to
+              engineering production-grade web products and intelligent systems that drive
+              real business outcomes for companies, businesses and startups.
             </p>
 
-            <p className="text-white/60 leading-relaxed">
-              I focus on creating scalable, high-performance web applications using <span className="text-white">React, JavaScript, Typescript and Python</span>,
-              and modern web technologies. My work spans the full frontend development lifecycle from component architecture
-              and state management to responsive design and smooth user interactions.
+            <p className="text-white/80 leading-relaxed">
+              I specialize in building fast, scalable, and revenue-ready digital products
+              using React, TypeScript, Next.js, Python, and FastAPI across the full
+              engineering lifecycle from component architecture and state management to
+              AI-powered backend systems, REST API integration, and performance-optimized
+              deployment pipelines.
             </p>
 
-            <p className="text-white/60 leading-relaxed">
-              I excel in collaborative environments where creativity meets practical problem-solving. Whether it's integrating APIs,
-              optimizing performance, or delivering pixel-perfect responsive layouts, I take a holistic approach to every project.
+            <p className="text-white/80 leading-relaxed">
+              I operate with a detail-oriented, user-focused execution standard whether
+              shipping solo or collaborating within remote cross-functional engineering
+              teams. Every product I deliver is built for performance, maintainability,
+              and measurable impact with Lighthouse scores of 95 to 100 and sub-2-second
+              load times across 30+ production deliveries as proof of standard.
             </p>
 
             <div className="pt-4">
               <div className="flex items-center gap-4 text-sm">
-                <span className="text-white/40">Currently</span>
+                <span className="text-white/80">Currently</span>
                 <div className="h-px flex-1 bg-white/10" />
               </div>
-              <p className="text-white mt-2">Founder & Lead Developer @ <span className="text-white font-semibold">Smartweblab</span></p>
-              <p className="text-white/40 text-sm">Helping businesses grow online with modern, responsive web design and development</p>
-
+              <p className="text-white/80 mt-2">
+                Founder & Lead Engineer @{" "}
+                <span className="text-white font-semibold">Smartweblab</span>
+              </p>
+              <p className="text-white/80 text-sm">
+                Engineering scalable web products and AI systems that help companies,
+                businesses and startups grow, convert, and compete online.
+              </p>
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Code } from "lucide-react";
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 
@@ -23,16 +23,16 @@ export function Hero() {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
 
       <div className="container mx-auto relative z-10">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center gap-2 justify-center mb-8"
+            className="flex items-center gap-2 justify-center mt-15 mb-8"
           >
             <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
-              <Sparkles className="h-4 w-4 text-white" />
-              <span className="text-sm text-white/80">Available for new opportunities</span>
+              <Code className="h-4 w-4 text-white" />
+              <span className="text-sm text-white/80">HI THERE, I'M BABATUNDE</span>
             </div>
           </motion.div>
 
@@ -42,13 +42,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-center mb-6"
           >
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-mono tracking-tighter mb-4">
-              <span className="inline-block mr-4">FULL</span>
-              <span className="inline-block text-white/20">STACK</span>
-            </h1>
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-mono tracking-tighter">
-              <span className="inline-block text-white/20">DEVELOPER</span>
-            </h1>
+            <h1 className="text-6xl md:text-8xl lg:text-8x tracking-tighter mb-4 font-extrabold"> I build fast, functional, <br/> and beautiful web applications. </h1>
 
           </motion.div>
 
@@ -58,11 +52,13 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-center mb-12"
           >
-            <p className="text-xl md:text-2xl text-white/60 max-w-3xl mx-auto leading-relaxed">
-              Building scalable, high-performance web applications with modern technologies.
-              Specialized in <span className="text-white">React</span>,{" "}
-              <span className="text-white">JavaScript, TypeScript</span>,
-              and <span className="text-white">Next.js</span>.
+            <p className="text-sm md:text-lg text-white/60 max-w-3xl mx-auto leading-relaxed">
+              I specialize in turning ideas into fast, scalable, and revenue-ready digital
+              products, from high-performance React and Next.js frontend interfaces to
+              intelligent AI-powered backends built with Python and FastAPI. Whether
+              operating as a solo engineer or embedded within a remote cross-functional
+              team, I bring a detail-oriented, user-focused execution standard to every
+              product I ship.
             </p>
 
           </motion.div>
@@ -76,7 +72,7 @@ export function Hero() {
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-white text-black hover:bg-white/90 rounded-none px-8 group"
+              className="bg-white text-black hover:bg-white/90 rounded-none px-8 group pointer"
             >
               Start a Project
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
