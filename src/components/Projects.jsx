@@ -216,7 +216,7 @@ export function Projects() {
             <span className="text-white/40 font-mono text-sm">03</span>
             <div className="h-px flex-1 bg-white/10" />
           </div>
-          <h2 className="text-5xl md:text-6xl font-mono tracking-tight">PROJECTS</h2>
+          <h2 className="text-5xl md:text-6xl font-mono tracking-tight font-extrabold">projects</h2>
         </div>
 
         <div className="space-y-32">

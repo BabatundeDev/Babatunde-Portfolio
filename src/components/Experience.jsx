@@ -65,7 +65,7 @@ export function Experience() {
             <span className="text-white/40 font-mono text-sm">04</span>
             <div className="h-px flex-1 bg-white/10" />
           </div>
-          <h2 className="text-5xl md:text-6xl font-mono tracking-tight">EXPERIENCE</h2>
+          <h2 className="text-5xl md:text-6xl font-mono tracking-tight font-extrabold">experience</h2>
         </div>
 
         <div className="space-y-16">

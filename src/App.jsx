@@ -9,7 +9,7 @@ import { Contact } from "./components/Contact";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black overflow-x-hidden">
+    <div className="min-h-screen bg-black overflow-x-hidden font-mono">
       <Navbar />
       <main className="relative">
         <div className="fixed inset-0 z-0 opacity-[0.03]">

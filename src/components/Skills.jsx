@@ -66,7 +66,7 @@ export function Skills() {
             <span className="text-white/40 font-mono text-sm">02</span>
             <div className="h-px flex-1 bg-white/10" />
           </div>
-          <h2 className="text-5xl md:text-6xl font-mono tracking-tight">SKILLS</h2>
+          <h2 className="text-5xl md:text-6xl font-mono tracking-tight font-extrabold">skills</h2>
         </div>
 
         {/* Category tabs */}

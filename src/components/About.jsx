@@ -21,7 +21,7 @@ export function About() {
             <span className="text-white/40 font-mono text-sm">01</span>
             <div className="h-px flex-1 bg-white/10" />
           </div>
-          <h2 className="text-5xl md:text-6xl font-mono tracking-tight">ABOUT</h2>
+          <h2 className="text-5xl md:text-6xl tracking-tight font-extrabold">about</h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">

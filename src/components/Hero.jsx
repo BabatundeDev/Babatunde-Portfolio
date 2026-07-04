@@ -42,7 +42,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-center mb-6"
           >
-            <h1 className="text-6xl md:text-8xl lg:text-8x tracking-tighter mb-4 font-extrabold"> I build fast, functional, <br/> and beautiful web applications. </h1>
+            <h1 className="text-6xl md:text-8xl lg:text-8x tracking-tighter mb-4 font-extrabold font-sans"> I build fast, functional, <br/> and beautiful web applications. </h1>
 
           </motion.div>
 
