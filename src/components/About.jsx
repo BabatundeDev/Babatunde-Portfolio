@@ -100,8 +100,7 @@ export function About() {
         <div className="border-l-2 border-white/20 pl-8">
           <h3 className="text-2xl font-mono mb-4">Development Philosophy</h3>
           <p className="text-white/60 leading-relaxed max-w-3xl">
-            "Great software is built on three pillars: <span className="text-white">clean architecture</span>,
-            <span className="text-white"> user-centric design</span>, and <span className="text-white">continuous improvement</span>.
+            "Great software is built on three pillars: clean architecture,user-centric design, and continuous improvement.
             Every line of code should serve a purpose, every feature should solve a real problem,
             and every project should push the boundaries of what's possible."
           </p>

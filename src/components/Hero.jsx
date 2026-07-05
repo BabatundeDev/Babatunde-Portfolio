@@ -72,7 +72,7 @@ export function Hero() {
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-white text-black hover:bg-white/90 rounded-none px-8 group pointer"
+              className="bg-white text-black hover:bg-white/90 rounded-none px-8 group cursor-pointer"
             >
               Start a Project
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
@@ -81,7 +81,7 @@ export function Hero() {
               onClick={scrollToProjects}
               variant="outline"
               size="lg"
-              className="border-white/20 text-white hover:bg-white/10 hover:text-white rounded-none px-8"
+              className="border-white/20 text-white hover:bg-white/10 hover:text-white rounded-none px-8 cursor-pointer"
             >
               View Work
             </Button>

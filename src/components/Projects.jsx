@@ -242,7 +242,7 @@ export function Projects() {
                       <div className="w-16 h-16 mx-auto mb-4 border border-white flex items-center justify-center">
                         <ArrowRight className="h-6 w-6 text-white" />
                       </div>
-                      <p className="text-white text-sm font-mono">View Details</p>
+                      <p className="text-white text-sm">View Details</p>
                     </div>
                   </div>
 
