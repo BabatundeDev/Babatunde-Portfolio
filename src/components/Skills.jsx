@@ -6,7 +6,7 @@ const categories = {
     note: "Interfaces people touch",
     skills: [
       { name: "React", level: 95 },
-      { name: "Next.js", level: 90 },
+      // { name: "Next.js", level: 90 },
       { name: "JavaScript", level: 85 },
       { name: "TypeScript", level: 80 },
       { name: "HTML", level: 95},
@@ -19,18 +19,18 @@ const categories = {
       { name: "Responsive Design", level: 95 },
     ],
   },
-  backend: {
-    title: "Backend",
-    note: "Systems that hold it up",
-    skills: [
-      { name: "Node.js", level: 80 },
-      { name: "Express", level: 80 },
-      { name: "Python", level: 70 },
-      { name: "Database Management", level: 75 },
-      { name: "REST API Integration", level: 80 },
-      { name: "Cloud Deployments", level: 90 },
-    ],
-  },
+  // backend: {
+  //   title: "Backend",
+  //   note: "Systems that hold it up",
+  //   skills: [
+  //     { name: "Node.js", level: 80 },
+  //     { name: "Express", level: 80 },
+  //     { name: "Python", level: 70 },
+  //     { name: "Database Management", level: 75 },
+  //     { name: "REST API Integration", level: 80 },
+  //     { name: "Cloud Deployments", level: 90 },
+  //   ],
+  // },
   tools: {
     title: "Tools & Practices",
     note: "The daily kit",

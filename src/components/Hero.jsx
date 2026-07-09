@@ -28,7 +28,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center gap-2 justify-center mt-15 mb-8"
+            className="flex items-center gap-2 justify-center mt-8 mb-8"
           >
             <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
               <Code className="h-4 w-4 text-white" />
@@ -54,8 +54,8 @@ export function Hero() {
           >
             <p className="text-sm md:text-lg text-white/60 max-w-3xl mx-auto leading-relaxed">
               I specialize in turning ideas into fast, scalable, and revenue-ready digital
-              products, from high-performance React and Next.js frontend interfaces to
-              intelligent AI-powered backends built with Python and FastAPI. Whether
+              products, from high-performance React frontend interfaces to
+              intelligent AI-powered Plartform. Whether
               operating as a solo engineer or embedded within a remote cross-functional
               team, I bring a detail-oriented, user-focused execution standard to every
               product I ship.

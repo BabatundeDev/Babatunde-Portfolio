@@ -6,9 +6,9 @@ import Profile from "../assets/images/Profile.png";
 export function About() {
   const stats = [
     { icon: Code2, label: "Lines of Code", value: "500K+" },
-    { icon: Zap, label: "Projects Delivered", value: "50+" },
-    { icon: Award, label: "Years Experience", value: "3+" },
-    { icon: Users, label: "Clients Worldwide", value: "30+" }
+    { icon: Zap, label: "Projects Delivered", value: "40+" },
+    { icon: Award, label: "Years Experience", value: "3" },
+    { icon: Users, label: "Clients Worldwide", value: "20+" }
   ];
 
   return (
@@ -27,14 +27,14 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
-              I'm Babatunde Ishau, a Full-Stack Engineer and AI Specialist dedicated to
+              I'm Babatunde Ishau, a Frontend Engineer and AI Specialist dedicated to
               engineering production-grade web products and intelligent systems that drive
               real business outcomes for companies, businesses and startups.
             </p>
 
             <p className="text-white/80 leading-relaxed">
               I specialize in building fast, scalable, and revenue-ready digital products
-              using React, TypeScript, Next.js, Python, and FastAPI across the full
+              using React, Javascript, TypeScript and FastAPI across the full
               engineering lifecycle from component architecture and state management to
               AI-powered backend systems, REST API integration, and performance-optimized
               deployment pipelines.
@@ -79,7 +79,7 @@ export function About() {
 
             <div className="absolute bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm border-t border-white/20 p-4">
               <p className="font-mono text-sm text-white/60">Babatunde Ishau</p>
-              <p className="text-xs text-white/40">Full-Stack Developer</p>
+              <p className="text-xs text-white/40">Frontend Engineer</p>
             </div>
           </div>
         </div>
