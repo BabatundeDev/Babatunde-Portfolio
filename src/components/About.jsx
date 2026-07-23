@@ -7,7 +7,7 @@ export function About() {
   const stats = [
     { icon: Code2, label: "Lines of Code", value: "500K+" },
     { icon: Zap, label: "Projects Delivered", value: "40+" },
-    { icon: Award, label: "Years Experience", value: "3" },
+    { icon: Award, label: "Years Experience", value: "3+" },
     { icon: Users, label: "Clients Worldwide", value: "20+" }
   ];
 
@@ -34,7 +34,7 @@ export function About() {
 
             <p className="text-white/80 leading-relaxed">
               I specialize in building fast, scalable, and revenue-ready digital products
-              using React, Javascript, TypeScript and FastAPI across the full
+              using React, Next.Js, Javascript, TypeScript and FastAPI across the full
               engineering lifecycle from component architecture and state management to
               AI-powered backend systems, REST API integration, and performance-optimized
               deployment pipelines.
@@ -69,9 +69,9 @@ export function About() {
               <ImageWithFallback
                 src={Profile}
                 alt="Babatunde Ishau - Frontend Developer"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover transition-all duration-500"
               />
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all duration-500" />
+              {/* <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-all duration-500" /> */}
             </div>
 
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-white/20 -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500" />

@@ -6,7 +6,7 @@ const categories = {
     note: "Interfaces people touch",
     skills: [
       { name: "React", level: 95 },
-      // { name: "Next.js", level: 90 },
+      { name: "Next.js", level: 90 },
       { name: "JavaScript", level: 85 },
       { name: "TypeScript", level: 80 },
       { name: "HTML", level: 95},

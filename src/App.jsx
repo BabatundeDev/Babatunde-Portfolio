@@ -39,7 +39,7 @@ export default function App() {
           <div className="mb-4 flex justify-center gap-8">
             <a href="https://github.com/BabatundeDev" className="text-white/60 hover:text-white transition-colors">GitHub</a>
             <a href="https://linkedin.com/in/babatunde-ishau-95ab94359" className="text-white/60 hover:text-white transition-colors">LinkedIn</a>
-            <a href="https://x.com/BabatundeIshau" className="text-white/60 hover:text-white transition-colors">Mail</a>
+            <a href="mailto:ishaubabatunde49@gmail.com" className="text-white/60 hover:text-white transition-colors">Mail</a>
           </div>
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} Babatunde Ishau. Crafted with precision.

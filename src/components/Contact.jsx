@@ -37,7 +37,7 @@ export function Contact() {
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/BabatundeDev" },
     { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/babatunde-ishau-95ab94359" },
-    { icon: Mail, label: "email", href: "mailto:ishaubabatunde49@gmail.com" }
+    // { icon: Mail, label: "email", href: "mailto:ishaubabatunde49@gmail.com" }
   ];
 
   return (

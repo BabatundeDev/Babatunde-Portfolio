@@ -130,26 +130,26 @@ export function Projects() {
       github: "https://github.com/BabatundeDev/SmartDwell",
       live: "https://smartdwell.vercel.app/"
     },
-    {
-      year: "2024",
-      title: "Football Live Match App",
-      description:
-        "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
-      image: Football,
-      tags: ["React", "Javascript", "Bootstrap", "Football Data API", "Vercel"],
-      metrics: ["99.9% Uptime", "100+ Live Matches Displayed", "100ms Response Time"],
-      features: [
-        "Real-time API Integration: Fetches live football match data, upcoming fixtures, and team information via a football data API.",
-        "Match Cards: Displays live and scheduled matches in an organized, card-based layout, showing team names, times, and status.",
-        "Responsive Design: Fully responsive grid adapts to desktop, tablet, and mobile views for a cohesive user experience.",
-        "Interactive UI: Hover and click effects to highlight match details; state-based rendering for live vs upcoming games.",
-        "Placeholder Video / Watch Button: Includes a design placeholder for match stream or replay.",
-        "Performance Optimization: Efficient data fetching and rendering to handle live updates without lag.",
-        "Error Handling: Manages API errors gracefully, showing fallback UI when data is unavailable."
-      ],
-      github: "https://github.com/BabatundeDev/Football-Live",
-      live: "https://football-live-omega.vercel.app/"
-    },
+    // {
+    //   year: "2024",
+    //   title: "Football Live Match App",
+    //   description:
+    //     "This is a live match platform built in React that integrates with a football API to display real‑time data of ongoing and upcoming matches. The UI is clean and minimal, using dynamic cards to visualize teams, match times, and broadcast placeholders. The application is optimized for both performance and responsiveness, making it accessible from desktop and mobile devices.",
+    //   image: Football,
+    //   tags: ["React", "Javascript", "Bootstrap", "Football Data API", "Vercel"],
+    //   metrics: ["99.9% Uptime", "100+ Live Matches Displayed", "100ms Response Time"],
+    //   features: [
+    //     "Real-time API Integration: Fetches live football match data, upcoming fixtures, and team information via a football data API.",
+    //     "Match Cards: Displays live and scheduled matches in an organized, card-based layout, showing team names, times, and status.",
+    //     "Responsive Design: Fully responsive grid adapts to desktop, tablet, and mobile views for a cohesive user experience.",
+    //     "Interactive UI: Hover and click effects to highlight match details; state-based rendering for live vs upcoming games.",
+    //     "Placeholder Video / Watch Button: Includes a design placeholder for match stream or replay.",
+    //     "Performance Optimization: Efficient data fetching and rendering to handle live updates without lag.",
+    //     "Error Handling: Manages API errors gracefully, showing fallback UI when data is unavailable."
+    //   ],
+    //   github: "https://github.com/BabatundeDev/Football-Live",
+    //   live: "https://football-live-omega.vercel.app/"
+    // },
     {
       year: "2026",
       title: "AbiConnect — Digital Marketing Agency Website",
@@ -233,9 +233,9 @@ export function Projects() {
                   <ImageWithFallback
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" /> */}
 
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="text-center">
